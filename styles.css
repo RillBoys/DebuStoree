@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.promo-container {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin: 20px;
+}
+
+.promo-container:hover {
+    transform: scale(1.05);
+}
+
+.store-logo {
+    width: 200px;
+    margin-bottom: -30px;
+}
+
+.promo-header h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #4ac6c6;
+    letter-spacing: 1.5px;
+}
+
+.promo-header p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.promo-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.discord-link {
+    display: inline-block;
+    background-color: #7289da;
+    color: #ffffff;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.discord-link:hover {
+    background-color: #5b6eae;
+    transform: translateY(-5px);
+}
